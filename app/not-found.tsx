@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound() { return <main className="container" style={{padding:'100px 0',minHeight:'100vh'}}><p className="eyebrow section-kicker">SPETSTEKHNIKA / 404</p><h1 style={{fontSize:56}}>Такой страницы нет</h1><p style={{color:'#a3aaa0',margin:'25px 0'}}>Нужная техника есть в нашем демонстрационном каталоге.</p><Link className="button" href="/">Перейти на главную ↗</Link></main>; }
