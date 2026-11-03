@@ -61,3 +61,10 @@
 .footer-main .brand-wordmark small{font-size:7px;letter-spacing:1.3px}
 @media(max-width:650px){.brand{gap:9px}.brand-grader{width:64px;height:46px}.brand-wordmark{font-size:18px;letter-spacing:.1px}.brand-wordmark small{font-size:7px;letter-spacing:1.2px;margin-top:6px}.footer-main .brand-grader{width:72px;height:50px}.footer-main .brand-wordmark{font-size:19px}}
 @media(max-width:380px){.brand-grader{width:56px;height:42px}.brand-wordmark{font-size:16px}.brand-wordmark small{font-size:6px;letter-spacing:1.1px}.footer-main .brand-wordmark{font-size:18px}}
+
+/* Direct phone contact in the site navigation and mobile call panel. */
+.header-contact small{font-size:12px;color:var(--text);white-space:nowrap}
+.contact-item .contact-phone{display:flex;align-items:center;gap:15px;font-size:19px;font-weight:600;white-space:nowrap}
+.footer-main .footer-phone{font-size:16px;font-weight:600;color:var(--text);white-space:nowrap}
+.mobile-cta .mobile-call{background:#292b29;border:1px solid #4f534e;color:var(--text)}
+.mobile-cta .mobile-call svg{color:var(--orange)}
